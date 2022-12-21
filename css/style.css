@@ -1,0 +1,140 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 9999;
+}
+
+.header-logo {
+  height: 90px;
+  padding: 0 30px;
+  margin-left: 50px;
+}
+
+.menu {
+  display: flex;
+  margin-top: auto;
+  border-bottom: solid #200f43 2px;
+  font-size: 20px;
+}
+
+.menu-link {
+  margin: 5px 30px;
+  color: #200f43;
+}
+
+.main {
+  margin-top: 120px;
+}
+
+.bat {
+  width: 100%;
+  background: #f0f0f0;
+  padding: 50px 0;
+}
+
+.title {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.bat-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bat-card {
+  flex: 0 1 250px;
+  margin: 10px;
+}
+
+.bat-img {
+  width: 100%;
+}
+
+.bat-text {
+  margin: 10px 120px;
+
+  text-align: center;
+}
+
+.prem-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.prem-card {
+  flex: 0 1 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+.prem-svg {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cert {
+  background: #f0f0f0;
+  padding: 50px 0;
+}
+
+.maps {
+  width: 100%;
+}
+
+.maps-map {
+  margin: 10px auto;
+  width: 100%;
+  height: 400px;
+}
+
+.footer {
+  padding: 20px;
+  background: #000;
+  display: flex;
+  color: #fff;
+}
+
+.footer-logo {
+  height: 64px;
+  margin-left: 30px;
+}
+
+.footer-copy {
+  font-size: 11px;
+  align-items: center;
+}
