@@ -36,11 +36,31 @@ li {
   margin-left: 50px;
 }
 
+.menu-cont {
+  margin-top: auto;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sub-login {
+  margin-left: auto;
+  margin-right: 0;
+  padding: 10px;
+}
+
+.sum-img {
+  height: 32px;
+
+}
+
 .menu {
   display: flex;
   margin-top: auto;
   border-bottom: solid #200f43 2px;
   font-size: 20px;
+  margin-bottom: 0;
 }
 
 .menu-link {
@@ -49,7 +69,8 @@ li {
 }
 
 .main {
-  margin-top: 120px;
+  margin-top: 140px;
+  margin-bottom: 30px;
 }
 
 .bat {
@@ -127,6 +148,10 @@ li {
   background: #000;
   display: flex;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
 }
 
 .footer-logo {
@@ -135,6 +160,14 @@ li {
 }
 
 .footer-copy {
-  font-size: 11px;
-  align-items: center;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-icon {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 2px;
+  height: 32px;
+  margin: 0 5px;
 }
