@@ -44,6 +44,16 @@ li {
   align-items: flex-end;
 }
 
+.submenu {
+  display: flex;
+  align-items: center;
+}
+
+.text10sec {
+  font-size: 30px;
+  margin: 0;
+}
+
 .sub-login {
   margin-left: auto;
   margin-right: 0;
@@ -170,4 +180,22 @@ li {
   padding: 2px;
   height: 32px;
   margin: 0 5px;
+}
+
+.about-text {
+  padding: 10px 50px;
+}
+
+.bat-title {
+  text-align: center;
+  color: #330d5a;
+}
+
+.bat-text {
+  text-align: left;
+  padding: 10px 30px;
+}
+
+.container {
+  max-width: 800px;
 }
